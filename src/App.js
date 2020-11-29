@@ -24,14 +24,17 @@ class App extends Component {
         <div className='row'>
           <img className='mx-auto mt-5' src={Logo} alt='logo' />
         </div>
-        <div className='row'>
-          <h1 className='mx-auto mt-2'>Laugh With Comedian</h1>
+        <div className='row mt-3'>
+          <h1 className='header mx-auto'>Laugh With Comedian</h1>
         </div>
         <div className='row'>
           <Card data={this.state}/>
         </div>
         <div className='row'>
-          <button className='btn btn-warning mx-auto'>Next</button>
+          <button className='btn btn-warning mx-auto m-2'>Next</button>
+        </div>
+        <div className='row'>
+          <p className='footer mx-auto m-5'>2020 Cisco&copy;</p>
         </div>
       </div>
      );

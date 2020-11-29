@@ -4,10 +4,20 @@ $dot-color : hsl(256,33,70);
 $dot-size: 1px;
 $dot-space: 22px; */
 
+
+/* font-family: 'Nerko One', cursive;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Teko', sans-serif; */
+
 .container-fluid {
   background-color: #8BC6EC;
   background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
   height: 100vh;
+}
+
+.header{
+  font-size: 3rem;
+  font-family: 'Nerko One', cursive;
 }
 
 img{
@@ -128,26 +138,36 @@ section .section-title {
 .frontside .card,
 .backside .card {
     min-height: 312px;
-    color: #007b5e !important;
+    color: #120078 !important;
+    font-family: 'Roboto Mono', monospace;
 }
 
-.backside .card a {
+/* .backside .card a {
     font-size: 18px;
     color: #007b5e !important;
-}
+} */
 
 .frontside .card .card-title,
 .backside .card .card-title {
-    color: #007b5e !important;
+  font-size: 2rem;
+    color: #120078 !important;
+    font-family: 'Roboto Mono', monospace;
 }
 
-.frontside .card .card-body img {
+/* .frontside .card .card-body img {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-}
+} */
 
 .line{
-  color: blue;
+  color: #aee6e6;
 }
 
+.card-text{
+  font-size: 1.5rem;
+}
+
+.footer{
+  font-family: 'Teko', sans-serif;
+}
