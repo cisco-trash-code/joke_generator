@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Card = props => {
-    console.log(props.data);
     const{ setUp , punchline } = props.data;
     return ( 
         <div className="col-xs-12 col-sm-6 col-md-4 mx-auto mt-5">
@@ -10,7 +9,7 @@ const Card = props => {
                         <div className="frontside">
                             <div className="card">
                                 <div className="card-body text-center">
-                                    <h1 classNameName="card-title text-success">Setup</h1>
+                                    <h1 className="card-title text-success">Setup</h1>
                                     <p className=" line">-----------------------------------------------------------</p>
                                     <p className="card-text">{setUp}</p>
                                 </div>

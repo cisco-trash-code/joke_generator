@@ -31,7 +31,7 @@ class App extends Component {
           <Card data={this.state}/>
         </div>
         <div className='row'>
-          <button onClick={this.handleClick} className='btn btn-warning mx-auto m-2'>Next</button>
+          <button onClick={this.handleClick} type="submit" className='btn btn-warning mx-auto m-2'><span>Next</span></button>
         </div>
         <div className='row'>
           <p className='footer mx-auto m-5'>2020 Cisco&copy;</p>
