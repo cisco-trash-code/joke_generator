@@ -128,6 +128,7 @@ section .section-title {
 .frontside .card,
 .backside .card {
     min-height: 312px;
+    color: #007b5e !important;
 }
 
 .backside .card a {
@@ -146,4 +147,7 @@ section .section-title {
     border-radius: 50%;
 }
 
+.line{
+  color: blue;
+}
 
