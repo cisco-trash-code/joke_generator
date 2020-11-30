@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 import  Logo  from './assets/joker.png';
 import Card from './components/card';
+import { toast } from "react-toastify";
 
 class App extends Component {
   state = { 
@@ -21,6 +24,7 @@ class App extends Component {
   render() { 
     return ( 
       <div className='container-fluid'>
+          <ToastContainer />
         <div className='row'>
           <img className='mx-auto mt-5' src={Logo} alt='logo' />
         </div>
@@ -37,7 +41,7 @@ class App extends Component {
           <p className='footer mx-auto m-5'>2020 Cisco&copy;</p>
         </div>
           <div className='row mt-0'>
-              <button onClick={this.handleAlert} type='button' className='rounded-circle btn btn-success'>?</button>
+              <button onClick={this.handleAlert} type='button' className='rounded-circle btn btn-success btn-lg'>?</button>
           </div>
       </div>
      );
@@ -48,7 +52,7 @@ class App extends Component {
   }
 
   handleAlert = () => {
-      alert('Hover Over Card For The Punchline');
+      toast.error('Hover Over Card For The Punchline');
   }
 
 }
