@@ -140,3 +140,9 @@ section .section-title {
 button span{
   font-family: 'Permanent Marker', cursive;
 }
+
+/*floating button*/
+
+.rounded-circle {
+    margin-left: 650px;
+}
