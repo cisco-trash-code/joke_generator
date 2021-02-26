@@ -38,7 +38,7 @@ class App extends Component {
           <button onClick={this.handleClick} type="button" className='btn btn-warning mx-auto mt-2'><span>Next</span></button>
         </div>
         <div className='row'>
-          <p className='footer mx-auto pt-4'>2020 Cisco&copy;</p>
+          <p className='footer mx-auto pt-4'>2021 Cisco&copy;</p>
         </div>
         <div className='row row-btn'>
           <button onClick={this.handleAlert} type='button' className='rounded-circle btn btn-success btn-lg'>?</button>
