@@ -6,7 +6,14 @@ font-family: 'Teko', sans-serif; */
 .container-fluid {
   background-color: #8BC6EC;
   background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+  position: relative; /*btn*/
   height: 100vh;
+}
+
+.row-btn{
+  position: absolute;
+  top: 20vh;
+  left: 50vw;
 }
 
 .header{
